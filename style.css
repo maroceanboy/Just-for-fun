@@ -43,8 +43,8 @@
     width: 100%;
   
     /* Center and scale the image nicely */
-    background-position: center;
+    background-size: 100%;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: auto;
   }
   
