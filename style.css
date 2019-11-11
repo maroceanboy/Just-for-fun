@@ -26,3 +26,9 @@
      font-size; 12px;
      
   }
+h2 {
+  position: fixed;
+  top : 25%;
+  left : 25%;
+  font-size: 16px
+}
