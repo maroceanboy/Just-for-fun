@@ -1,6 +1,7 @@
 * {
-padding: 0;
+  padding: 0;
   margin: 0;
+  font-family: "Rimouski";
 }
 
 body {
@@ -8,7 +9,7 @@ body {
   background-image: linear-gradient(180deg, #84ceeb, #c1c8e4, #8860d0);
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -17,12 +18,12 @@ ul {
   
 }
 
-li {
+nav li {
   float: right;
   
 }
 
-li a {
+nav li a {
   display: block;
   color: black;
   text-align: center;
@@ -30,12 +31,10 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+nav li a:hover {
   background-color: #84ceeb;
 }
-
-
-  
+ 
 h1 {
   position: fixed;
   top: 50%;
@@ -51,20 +50,13 @@ h2 {
   font-size: 16px
 }
 
-*{
-  font-family: "Rimouski";
-}
-
-body{
-  background-color: #293251;
-}
-
 .container{
   width: 300px;    
   background-color: #FFF;
   
   display: block;
   margin: 0 auto;
+  margin-top: 15px;
   
   border-radius: 10px;
   padding-bottom : 50px;
@@ -127,17 +119,9 @@ body{
   cursor: pointer;
 }
 
-.temperature-value p:hover{
-  
-}
-
 .temperature-value span{
   color: #293251;
   font-size: 0.5em;
-}
-
-.temperature-description{
-  
 }
 
 .temperature-description p{
@@ -148,10 +132,6 @@ body{
   font-size: 1.2em;
 }
 
-.location{
-  
-}
-
 .location p{
   margin: 0;
   padding: 0;
@@ -159,7 +139,3 @@ body{
   text-align: center;
   font-size: 0.8em;
 }
-
-
-
-
