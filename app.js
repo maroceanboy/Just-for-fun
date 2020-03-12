@@ -19,7 +19,7 @@ function setPosition(position){
     let longitude = position.coords.longitude;
     
     getWeather(latitude, longitude);
-    const mymap = L.map('map').setView([latitude, longitude], 10);
+    const mymap = L.map('map').setView([latitude, longitude], 12);
     
     const tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
